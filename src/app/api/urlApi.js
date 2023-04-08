@@ -35,9 +35,10 @@ export const urlShortner = createApi({
       },
       onQueryStarted: (curent, { dispatch, getState, cancelRequest }) => {
         const urls = getState()?.url?.inputUrl;
-        if (curent.length && urls.includes(curent)) {
+        if(curent.length && urls.includes(curent)){
           cancelRequest();
-        } else {
+        }
+        else {
           dispatch(urlSlice.actions.addUrl(curent));
         }
       },
