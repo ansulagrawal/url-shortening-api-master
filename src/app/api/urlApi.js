@@ -33,13 +33,12 @@ export const urlShortner = createApi({
       query: name => {
         return `shorten?url=${name}`;
       },
-      onQueryStarted: (curent, { dispatch, getState, next }) => {
+      onQueryStarted: (curent, { dispatch, getState, cancelRequest }) => {
         const urls = getState()?.url?.inputUrl;
-        if(!urls.includes(curent)){
+        if (curent.length && urls.includes(curent)) {
+          cancelRequest();
+        } else {
           dispatch(urlSlice.actions.addUrl(curent));
-        }
-        else {
-          next();
         }
       },
     }),

@@ -2,7 +2,7 @@ import React from "react";
 
 function StasticCard({ image, heading, content, className }) {
   return (
-    <div className={`w-[350px] h-[270px] bg-white rounded-md relative ${className}`}>
+    <div className={`w-full xl:w-[350px] h-[270px] mt-4 bg-white rounded-md relative ${className}`}>
       <div className="flex place-items-center justify-center h-[90px] w-[90px] bg-dark-voilet -mt-11 ml-10 rounded-full">
         <img src={image} alt="" />
       </div>
