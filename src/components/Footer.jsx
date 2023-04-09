@@ -12,14 +12,12 @@ function Footer() {
         <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <div className="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <img src={Logo} alt="Shortly" className="invert" />
-            <span className="ml-3 text-xl">url shortner</span>
           </div>
-          <p className="mt-2 text-sm text-white">Web application for shortening large urls</p>
         </div>
         <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Features</h2>
-            <nav className="list-none mb-10">
+            <ul className="list-none mb-10">
               <li>
                 <a className="text-white hover:text-custum-cyan cursor-pointer">Link Shortening</a>
               </li>
@@ -29,11 +27,11 @@ function Footer() {
               <li>
                 <a className="text-white hover:text-custum-cyan cursor-pointer">Analytics</a>
               </li>
-            </nav>
+            </ul>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Resources</h2>
-            <nav className="list-none mb-10">
+            <ul className="list-none mb-10">
               <li>
                 <a className="text-white hover:text-custum-cyan cursor-pointer">Blog</a>
               </li>
@@ -43,11 +41,11 @@ function Footer() {
               <li>
                 <a className="text-white hover:text-custum-cyan cursor-pointer">Support</a>
               </li>
-            </nav>
+            </ul>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
             <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">Company</h2>
-            <nav className="list-none mb-10">
+            <ul className="list-none mb-10">
               <li>
                 <a className="text-white hover:text-custum-cyan cursor-pointer">About</a>
               </li>
@@ -60,7 +58,7 @@ function Footer() {
               <li>
                 <a className="text-white hover:text-custum-cyan cursor-pointer">Contact</a>
               </li>
-            </nav>
+            </ul>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4 flex h-[30px] gap-3 align-middle justify-center">
             <img src={Facebook} alt="facebook" />

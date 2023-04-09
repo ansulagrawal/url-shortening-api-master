@@ -16,7 +16,7 @@ const urlSlice = createSlice({
       })
       .addMatcher(urlShortner.endpoints.getShortenUrl.matchFulfilled, (state, action) => {
         state.loading = false;
-        state.result = [...state.result, action.payload];
+        state.result = [action.payload, ...state.result];
       })
       .addMatcher(urlShortner.endpoints.getShortenUrl.matchRejected, (state, action) => {
         state.loading = false;

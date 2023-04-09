@@ -28,7 +28,7 @@ function AdvanceStatstics() {
   return (
     <section className="bg-custom-gray bg-opacity-25 px-5 xl:px-0 pb-32">
       <div className="text-center mb-12 pt-14" id="advance-stats-header-container">
-        <h2 className="font-bold text-3xl">Advance Statics</h2>
+        <h2 className="font-bold text-3xl mb-3">Advance Statics</h2>
         <p className="text-xl md:w-4/12 w-full m-auto text-gray-400 px-2">Track how your links are performing across the web with our advance statics dashboard.</p>
       </div>
       <div className="flex place-items-center flex-col xl:flex-row justify-center gap-10">
