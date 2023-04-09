@@ -39,7 +39,7 @@ This project is a responsive landing page for a URL shortening API, built using 
 ![D1](https://raw.githubusercontent.com/ansulagrawal/url-shortening-api-master/master/result/mobile.png)
 
 **Note:**
-For more images please check **result** folder.
+For more images, please check [result](https://github.com/ansulagrawal/url-shortening-api-master/tree/master/result) folder.
 ## Demo
 Check out the [live demo](https://ansulagrawal.github.io/url-shortening-api-master/) to try it out for yourself!
 ## Authors
