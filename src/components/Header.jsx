@@ -5,7 +5,7 @@ function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-gray-200">
+    <section className="bg-white border-gray-200">
       <div className="w-screen flex flex-wrap items-center justify-center md:justify-between mx-auto p-4">
         <div className="flex items-center justify-between w-full md:w-auto mt-4">
           <img className="h-8 w-auto" src={Logo} alt="Compony Logo" />
@@ -41,7 +41,7 @@ function Header() {
           <button className="bg-custom-cyan border-0 py-2 px-4 focus:outline-none rounded-full mt-4 md:mt-0 text-white hover:bg-cyan-400 text-xl font-medium">Sign Up</button>
         </div>
       </div>
-    </nav>
+    </section>
   );
 }
 
